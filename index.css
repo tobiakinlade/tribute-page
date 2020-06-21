@@ -1,0 +1,55 @@
+
+  #main {
+    background-color: #DCDCAD;
+    margin-top: 40px;
+  }
+
+  img {
+      width: 100%;
+  }
+  figcaption{
+      text-align: center;
+  }
+
+  h3 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      margin-bottom: 20px;
+  }
+
+  li {
+      list-style: none;
+      text-align: left;
+  }
+
+  h1, h3 {
+      text-align: center;
+  }
+
+  @media (min-width: 576px) { 
+      img {
+          max-width: 400;
+      }
+   }
+
+
+@media (min-width: 768px) {
+    img {
+        max-width: 650;
+    }
+ }
+
+a:hover{
+    color: blue;
+}
+
+footer {
+    text-align: center;
+}
+
+#wiki{
+    margin-top: 20px;
+}
+
+#time-line{
+    margin-top: 20px;
+}
